@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_nav"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="16dp"
+    android:layout_marginTop="50dp"
+    android:background="@color/cool_pink"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:src="@mipmap/music_player_icon_round"
+        android:contentDescription="@string/app_icon"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_nav"
+        android:textColor="@color/white"
+        android:paddingTop="5dp"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
